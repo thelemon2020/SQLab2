@@ -1,4 +1,5 @@
 #include "Triangle.h"
+#include "../UnitTesting/pch.h"
 Triangle::Triangle(int a, int b)
 {
 	sideA = a;
