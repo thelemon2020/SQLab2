@@ -18,5 +18,12 @@ namespace UnitTesting
 			Assert::AreEqual(120, third_angle_result);
 			//The result is green.
 		}
+
+		TEST_METHOD(Exception_Test_findRemainingAngle)
+		{
+			Triangle testTriangle2(10, 10);
+			int third_angle_result2 = testTriangle2.findRemainingAngle(100, 100);
+			Assert::AreEqual(0, third_angle_result2);
+		}
 	};
 }
