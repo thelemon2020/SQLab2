@@ -11,7 +11,7 @@ namespace UnitTesting
 	{
 	public:
 		
-		TEST_METHOD(Test_findRemainingAngle)
+		TEST_METHOD(Unit_Test_findRemainingAngle)
 		{
 			Triangle testTriangle(10,10);
 			int third_angle_result = testTriangle.findRemainingAngle(30, 30);
