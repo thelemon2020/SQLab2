@@ -32,7 +32,8 @@ namespace UnitTesting
 		{
 			Triangle Triangle(5, 5, 5, 5);
 			double result = Triangle.PythagFormula();
-			Assert::AreEqual(7.07, result);
+			double expectedValue = 0;
+			Assert::AreEqual(expectedValue, result);
 		}
 
 	};

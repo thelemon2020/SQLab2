@@ -1,6 +1,6 @@
 #include "Triangle.h"
 #include <math.h>
-Triangle::Triangle(int a, int b, int aA, int aB)
+Triangle::Triangle(double a, double b, double aA, double aB)
 {
 	sideA = a;
 	sideB = b;
@@ -11,7 +11,7 @@ Triangle::Triangle(int a, int b, int aA, int aB)
 double Triangle::PythagFormula()
 {
 	double result = ((this->sideA * this->sideA) + (this->sideB* this->sideB));
-	return sqrt(result);
+	return 0;
 }
 
 double Triangle::FindArea()

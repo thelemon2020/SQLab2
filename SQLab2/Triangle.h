@@ -4,12 +4,12 @@ class Triangle
 private:
 	
 public:
-	Triangle(int a, int b, int aA, int aB);
+	Triangle(double a, double b, double aA, double aB);
 	double PythagFormula();
 	int findRemainingAngle();
 	double FindArea();
-	int sideA;
-	int sideB;
-	int angleA;
-	int angleB;
+	double sideA;
+	double sideB;
+	double angleA;
+	double angleB;
 };
