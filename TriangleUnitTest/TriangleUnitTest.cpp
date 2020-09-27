@@ -52,6 +52,7 @@ namespace UnitTesting
 			double result = Triangle.FindArea();
 			double ExpectedResults = (0.5 * 5 * 5);
 			Assert::AreEqual(ExpectedResults, result);
+			//this failed
 		}
 
 	};
