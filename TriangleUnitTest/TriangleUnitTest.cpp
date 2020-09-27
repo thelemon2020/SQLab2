@@ -55,5 +55,11 @@ namespace UnitTesting
 			//this passed
 		}
 
+		TEST_METHOD(Exception_Test_FindArea)
+		{
+			Triangle Triangle(5, 5, 95, 95);
+			int result = Triangle.FindArea();
+			Assert::AreEqual(0, result);
+		}
 	};
 }
