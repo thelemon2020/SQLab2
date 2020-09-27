@@ -36,5 +36,13 @@ namespace UnitTesting
 			Assert::AreEqual(expectedValue, result);
 		}
 
+		TEST_METHOD(Exception_Test_PythagFormula)
+		{
+			Triangle Triangle(5, 5, 95, 95);
+			double result = Triangle.PythagFormula();
+			double expectedValue = 0;
+			Assert::AreEqual(expectedValue, result);
+		}
+
 	};
 }

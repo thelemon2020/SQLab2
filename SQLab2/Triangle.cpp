@@ -11,7 +11,7 @@ Triangle::Triangle(double a, double b, double aA, double aB)
 double Triangle::PythagFormula()
 {
 	double result = ((this->sideA * this->sideA) + (this->sideB* this->sideB));
-	return 0;
+	return sqrt(result);
 }
 
 double Triangle::FindArea()
