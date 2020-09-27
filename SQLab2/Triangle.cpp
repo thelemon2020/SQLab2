@@ -20,7 +20,7 @@ double Triangle::PythagFormula()
 
 double Triangle::FindArea()
 {
-	return 0;
+	return (0.5*sideA*sideB);
 }
 
 int Triangle::findRemainingAngle()
