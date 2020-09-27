@@ -27,5 +27,5 @@ int Triangle::findRemainingAngle(int a, int b)
 	//Comment out this section to purposely fail a test
 
 
-	return 180 - a - b;
+	return (180 - a - b);
 }
