@@ -20,7 +20,15 @@ double Triangle::PythagFormula()
 
 double Triangle::FindArea()
 {
-	return (0.5*sideA*sideB);
+	if (((angleA != 90) && (angleB != 90)) || (angleA + angleB > 90))
+	{
+		return 0;
+	}
+	else 
+	{
+		return (0.5 * sideA * sideB);
+	}
+	
 }
 
 int Triangle::findRemainingAngle()
