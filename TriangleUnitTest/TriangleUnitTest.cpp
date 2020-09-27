@@ -25,7 +25,7 @@ namespace UnitTesting
 			Triangle testTriangle2(10, 10);
 			int third_angle_result2 = testTriangle2.findRemainingAngle(100, 100);
 			Assert::AreEqual(0, third_angle_result2);
-			//this test failed
+			//this test passed
 		}
 	};
 }
