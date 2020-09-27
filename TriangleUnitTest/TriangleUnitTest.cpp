@@ -34,6 +34,7 @@ namespace UnitTesting
 			double result = Triangle.PythagFormula();
 			double expectedValue = 0;
 			Assert::AreEqual(expectedValue, result);
+			//this passed
 		}
 
 		TEST_METHOD(Exception_Test_PythagFormula)
@@ -42,6 +43,7 @@ namespace UnitTesting
 			double result = Triangle.PythagFormula();
 			double expectedValue = 0;
 			Assert::AreEqual(expectedValue, result);
+			//this passed
 		}
 
 	};
