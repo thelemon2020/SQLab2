@@ -48,7 +48,7 @@ namespace UnitTesting
 
 		TEST_METHOD(Unit_Test_FindArea)
 		{
-			Triangle Triangle(5, 5, 50, 50);
+			Triangle Triangle(5, 5, 50, 40);
 			double result = Triangle.FindArea();
 			double ExpectedResults = (0.5 * 5 * 5);
 			Assert::AreEqual(ExpectedResults, result);
@@ -60,6 +60,7 @@ namespace UnitTesting
 			Triangle Triangle(5, 5, 95, 95);
 			int result = Triangle.FindArea();
 			Assert::AreEqual(0, result);
+			//this passed
 		}
 	};
 }
