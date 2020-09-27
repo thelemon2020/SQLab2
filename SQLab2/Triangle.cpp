@@ -11,7 +11,11 @@ Triangle::Triangle(double a, double b, double aA, double aB)
 double Triangle::PythagFormula()
 {
 	double result = ((this->sideA * this->sideA) + (this->sideB* this->sideB));
-	return sqrt(result);
+	if (((angleA != 90) && (angleB != 90)) || (angleA + angleB > 90))
+	{
+		return 0;
+	}
+	return 0;
 }
 
 double Triangle::FindArea()
